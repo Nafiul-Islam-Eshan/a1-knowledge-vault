@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+
+nav{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.logo{
+    max-width: 139px;
+}
+
+.links{
+    display: flex;
+    gap: 32px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
 .btn{
   background-color: #30B868;
   color: #FFFFFF;
@@ -14,9 +39,12 @@
   max-width: 164px;
 }
 
-nav{
-    display: flex;
-    border: 1px solid red;
-    justify-content: space-around;
-    align-items: center;
+.btn:hover{
+    transition: transform 0.2s ease-in;
+    transform: scale(1.1);
 }
+
+
+
+
+
