@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+  background-color: #30B868;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+  max-width: 164px;
+}
+
+nav{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items: center;
+}
