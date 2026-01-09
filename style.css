@@ -144,7 +144,6 @@ nav{
     gap: 44px;
     justify-content: center;
     align-items: center;
-    border: 1.9px solid red;
     padding: 0 120px;
 }
 
@@ -184,6 +183,51 @@ nav{
     text-align: center;
 }
 
+#brain{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#brain .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#brain .texts .solution{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+}
+
+#brain .texts .heading{
+    font-size: 48px ;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+#brain .texts .para{
+    max-width: 550px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 45px;
+    color: #627382;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.list li{
+    display: flex;
+    gap: 6px;
+    list-style: none;
+}
 
 
 
