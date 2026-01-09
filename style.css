@@ -6,6 +6,20 @@
 
 /* Shared style */
 
+    .heading{
+        font-size: 40px ;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .para{
+    /* */
+    font-size: 16px;
+    line-height: 20px;
+    /* padding-right: 45px; */
+    color: #627382;
+    text-align: center;
+}
     
     .inter{
     font-family: "Open Sans", sans-serif;
@@ -135,7 +149,7 @@ nav{
 .content-box .button button{
     display: flex;
     gap: 10px;
-    width: auto 251px;
+    width: 251px auto ;
 }
 
 #notes-section{
@@ -153,12 +167,6 @@ nav{
     gap: 16px;
     align-items: center;
     padding-top: 68px;
-}
-
-#notes-section .heading h2{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
 }
 
 #notes-section .heading p{
@@ -203,18 +211,10 @@ nav{
     color: #469165;
 }
 
-#brain .texts .heading{
-    font-size: 48px ;
-    font-weight: 700;
-    line-height: 58px;
-}
 
 #brain .texts .para{
-    max-width: 550px;
-    font-size: 16px;
-    line-height: 20px;
-    padding-right: 45px;
-    color: #627382;
+    text-align: left;
+    max-width: 550px; 
 }
 
 .list ul{
@@ -229,10 +229,68 @@ nav{
     list-style: none;
 }
 
+.early-access-section{
+    display: flex;
+    justify-content: center;
+}
+
+.early-access-section .early-access-cards{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.early-access-section .para{
+     color: #627382;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+ }
 
 
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
 
+footer .content-div{
+    display: flex;
+    justify-content: space-between;
+}
 
+footer .content-div .social{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
+footer .content-div .social p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
 
+footer .content-div .social .social-links{
+    display: flex;
+    gap: 16px;
+
+}
+
+footer .content-div .social .social-links i{
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+footer .copyright{
+    margin: 0 auto;
+    color: #FAFAFA;
+}
 
